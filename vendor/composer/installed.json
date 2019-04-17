@@ -369,7 +369,7 @@
                 "dev-master": "0.2-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Dingo\\Blueprint\\": "src"

@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "dingo/api": "^2.2",
         "fideloper/proxy": "~4.0",
         "guzzlehttp/guzzle": "~6.3",
         "hieu-le/active": "~3.5",
