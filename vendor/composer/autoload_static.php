@@ -12,8 +12,8 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
@@ -29,16 +29,16 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '34122c0574b76bf21c9a8db62b5b9cf3' => __DIR__ . '/..' . '/cakephp/chronos/src/carbon_compat.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         'f4e9c7747917193061b46ee142399603' => __DIR__ . '/..' . '/dingo/api/src/helpers.php',
         'c9b7496aa2e287ba00ff44d2d2a861b1' => __DIR__ . '/..' . '/hieu-le/active/src/helpers.php',
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
         'cb61d74ad51d00867155534456b38b23' => __DIR__ . '/..' . '/mews/purifier/src/helpers.php',
         'f960e77410032f236cef8c56617b313e' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/helpers.php',
         '377b22b161c09ed6e5152de788ca020a' => __DIR__ . '/..' . '/spatie/laravel-permission/src/helpers.php',
-        '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -106,6 +106,7 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         array (
             'Overtrue\\Pinyin\\' => 16,
             'Overtrue\\LaravelLang\\' => 21,
+            'Overtrue\\EasySms\\' => 17,
             'Opis\\Closure\\' => 13,
         ),
         'N' => 
@@ -190,8 +191,8 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Zend\\Diactoros\\' => 
         array (
@@ -329,6 +330,10 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         array (
             0 => __DIR__ . '/..' . '/overtrue/laravel-lang/src',
         ),
+        'Overtrue\\EasySms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/overtrue/easy-sms/src',
+        ),
         'Opis\\Closure\\' => 
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
@@ -383,8 +388,8 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         ),
         'Illuminate\\Notifications\\' => 
         array (
-            0 => __DIR__ . '/..' . '/laravel/slack-notification-channel/src',
-            1 => __DIR__ . '/..' . '/laravel/nexmo-notification-channel/src',
+            0 => __DIR__ . '/..' . '/laravel/nexmo-notification-channel/src',
+            1 => __DIR__ . '/..' . '/laravel/slack-notification-channel/src',
         ),
         'Illuminate\\' => 
         array (
@@ -3258,6 +3263,42 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'Opis\\Closure\\SecurityProvider' => __DIR__ . '/..' . '/opis/closure/src/SecurityProvider.php',
         'Opis\\Closure\\SelfReference' => __DIR__ . '/..' . '/opis/closure/src/SelfReference.php',
         'Opis\\Closure\\SerializableClosure' => __DIR__ . '/..' . '/opis/closure/src/SerializableClosure.php',
+        'Overtrue\\EasySms\\Contracts\\GatewayInterface' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Contracts/GatewayInterface.php',
+        'Overtrue\\EasySms\\Contracts\\MessageInterface' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Contracts/MessageInterface.php',
+        'Overtrue\\EasySms\\Contracts\\PhoneNumberInterface' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Contracts/PhoneNumberInterface.php',
+        'Overtrue\\EasySms\\Contracts\\StrategyInterface' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Contracts/StrategyInterface.php',
+        'Overtrue\\EasySms\\EasySms' => __DIR__ . '/..' . '/overtrue/easy-sms/src/EasySms.php',
+        'Overtrue\\EasySms\\Exceptions\\Exception' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Exceptions/Exception.php',
+        'Overtrue\\EasySms\\Exceptions\\GatewayErrorException' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Exceptions/GatewayErrorException.php',
+        'Overtrue\\EasySms\\Exceptions\\InvalidArgumentException' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Exceptions/InvalidArgumentException.php',
+        'Overtrue\\EasySms\\Exceptions\\NoGatewayAvailableException' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Exceptions/NoGatewayAvailableException.php',
+        'Overtrue\\EasySms\\Gateways\\AliyunGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/AliyunGateway.php',
+        'Overtrue\\EasySms\\Gateways\\AliyunrestGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/AliyunrestGateway.php',
+        'Overtrue\\EasySms\\Gateways\\AvatardataGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/AvatardataGateway.php',
+        'Overtrue\\EasySms\\Gateways\\BaiduGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/BaiduGateway.php',
+        'Overtrue\\EasySms\\Gateways\\ChuanglanGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/ChuanglanGateway.php',
+        'Overtrue\\EasySms\\Gateways\\ErrorlogGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/ErrorlogGateway.php',
+        'Overtrue\\EasySms\\Gateways\\Gateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/Gateway.php',
+        'Overtrue\\EasySms\\Gateways\\HuaweiGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/HuaweiGateway.php',
+        'Overtrue\\EasySms\\Gateways\\HuaxinGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/HuaxinGateway.php',
+        'Overtrue\\EasySms\\Gateways\\HuyiGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/HuyiGateway.php',
+        'Overtrue\\EasySms\\Gateways\\JuheGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/JuheGateway.php',
+        'Overtrue\\EasySms\\Gateways\\LuosimaoGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/LuosimaoGateway.php',
+        'Overtrue\\EasySms\\Gateways\\QcloudGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/QcloudGateway.php',
+        'Overtrue\\EasySms\\Gateways\\RongcloudGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/RongcloudGateway.php',
+        'Overtrue\\EasySms\\Gateways\\SendcloudGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/SendcloudGateway.php',
+        'Overtrue\\EasySms\\Gateways\\SubmailGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/SubmailGateway.php',
+        'Overtrue\\EasySms\\Gateways\\TianyiwuxianGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/TianyiwuxianGateway.php',
+        'Overtrue\\EasySms\\Gateways\\TwilioGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/TwilioGateway.php',
+        'Overtrue\\EasySms\\Gateways\\YunpianGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/YunpianGateway.php',
+        'Overtrue\\EasySms\\Gateways\\YuntongxunGateway' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Gateways/YuntongxunGateway.php',
+        'Overtrue\\EasySms\\Message' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Message.php',
+        'Overtrue\\EasySms\\Messenger' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Messenger.php',
+        'Overtrue\\EasySms\\PhoneNumber' => __DIR__ . '/..' . '/overtrue/easy-sms/src/PhoneNumber.php',
+        'Overtrue\\EasySms\\Strategies\\OrderStrategy' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Strategies/OrderStrategy.php',
+        'Overtrue\\EasySms\\Strategies\\RandomStrategy' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Strategies/RandomStrategy.php',
+        'Overtrue\\EasySms\\Support\\Config' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Support/Config.php',
+        'Overtrue\\EasySms\\Traits\\HasHttpRequest' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Traits/HasHttpRequest.php',
         'Overtrue\\LaravelLang\\Commands\\Publish' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/Commands/Publish.php',
         'Overtrue\\LaravelLang\\FileLoader' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/FileLoader.php',
         'Overtrue\\LaravelLang\\TranslationServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/TranslationServiceProvider.php',
