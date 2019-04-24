@@ -151,6 +151,7 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Gregwar\\' => 8,
         ),
         'F' => 
         array (
@@ -430,6 +431,10 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Gregwar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar',
+        ),
         'Fideloper\\Proxy\\' => 
         array (
             0 => __DIR__ . '/..' . '/fideloper/proxy/src',
@@ -557,6 +562,7 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Handlers\\ImageUploadHandler' => __DIR__ . '/../..' . '/app/Handlers/ImageUploadHandler.php',
         'App\\Handlers\\SlugTranslateHandler' => __DIR__ . '/../..' . '/app/Handlers/SlugTranslateHandler.php',
+        'App\\Http\\Controllers\\Api\\CaptchasController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/CaptchasController.php',
         'App\\Http\\Controllers\\Api\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Controller.php',
         'App\\Http\\Controllers\\Api\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/UsersController.php',
         'App\\Http\\Controllers\\Api\\VerificationCodesController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/VerificationCodesController.php',
@@ -578,6 +584,7 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\Api\\CaptchaRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Api/CaptchaRequest.php',
         'App\\Http\\Requests\\Api\\UserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Api/UserRequest.php',
         'App\\Http\\Requests\\Api\\VerificationCodeRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Api/VerificationCodeRequest.php',
         'App\\Http\\Requests\\ReplyRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ReplyRequest.php',
@@ -1715,6 +1722,11 @@ class ComposerStaticInita79e2db3d1d3900d3188c97bdc362164
         'Frozennode\\Administrator\\Includes\\Resize' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Includes/Resize.php',
         'Frozennode\\Administrator\\Menu' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Menu.php',
         'Frozennode\\Administrator\\Validator' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Validator.php',
+        'Gregwar\\Captcha\\CaptchaBuilder' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/CaptchaBuilder.php',
+        'Gregwar\\Captcha\\CaptchaBuilderInterface' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/CaptchaBuilderInterface.php',
+        'Gregwar\\Captcha\\ImageFileHandler' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/ImageFileHandler.php',
+        'Gregwar\\Captcha\\PhraseBuilder' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/PhraseBuilder.php',
+        'Gregwar\\Captcha\\PhraseBuilderInterface' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/PhraseBuilderInterface.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',
